@@ -15,10 +15,10 @@ Completed:
 - Generated internal CA private key
 - Generated internal CA certificate
 - Installed the internal CA into the Ubuntu trust store
+- Verified the internal CA certificate successfully with OpenSSL
 
 In progress:
 
-- Verify internal CA certificate
 - Generate wildcard service certificate for `*.company.local`
 
 ## PKI Directory Structure
@@ -35,6 +35,10 @@ The private key directory was secured with owner-only access.
 ## Internal CA
 
 The internal CA is used to sign certificates for lab services. The CA certificate has been added to the local trust store so the VM can trust certificates issued by this CA.
+
+Original terminal evidence:
+
+![Internal CA certificate verification in the lab terminal](screenshots/phase-1-2-ca-verification-real.png)
 
 ## Safety Notes
 

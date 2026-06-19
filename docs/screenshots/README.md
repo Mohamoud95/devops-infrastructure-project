@@ -11,6 +11,7 @@ Screenshots are linked from the relevant phase document instead of being embedde
 - `phase-1-1-fail2ban-real.png`: Fail2Ban validation, startup, and SSH jail status
 - `phase-1-1-auditd-service-real.png`: auditd enabled and active service status
 - `phase-1-1-auditd-rules-real.png`: active audit rules
+- `phase-1-2-ca-verification-real.png`: successful OpenSSL verification of the internal CA
 
 ## Redaction Rules
 
