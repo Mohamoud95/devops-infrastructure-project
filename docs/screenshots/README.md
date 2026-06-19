@@ -12,7 +12,7 @@ Screenshots are linked from the relevant phase document instead of being embedde
 
 ## Redaction Rules
 
-Before adding screenshots, remove or avoid exposing:
+For screenshots, I remove or avoid exposing:
 
 - usernames and hostnames where possible
 - passwords
