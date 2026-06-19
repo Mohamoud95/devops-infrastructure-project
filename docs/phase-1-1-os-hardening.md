@@ -53,6 +53,10 @@ Allowed service ports:
 
 UFW was enabled and verified as active.
 
+Evidence:
+
+![UFW firewall status](screenshots/phase-1-1-ufw-status.png)
+
 ### SSH Hardening
 
 OpenSSH server was checked and found not installed. Nothing was listening on port 22.
@@ -68,6 +72,10 @@ Current active jail:
 - `sshd`
 
 At verification time, there were no failed attempts and no banned IPs.
+
+Evidence:
+
+![Fail2Ban SSH jail status](screenshots/phase-1-1-fail2ban-sshd-status.png)
 
 ### auditd
 
@@ -85,3 +93,10 @@ Audit rules were added for:
 
 The rules were loaded and verified with `auditctl`.
 
+Evidence:
+
+![auditd active rules](screenshots/phase-1-1-auditd-rules.png)
+
+## Evidence Handling
+
+Screenshots are stored in `docs/screenshots/` as implementation evidence. They should be redacted before upload and must not expose passwords, tokens, private keys, cloud credentials, or other sensitive material.

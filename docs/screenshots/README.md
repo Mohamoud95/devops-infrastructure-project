@@ -1,18 +1,23 @@
-﻿# Screenshots
+# Screenshots
 
-### UFW Firewall Status
+This folder stores redacted implementation evidence for the lab documentation.
 
-![UFW firewall status](screenshots/phase-1-1-ufw-status.png)
+Screenshots are linked from the relevant phase document instead of being embedded here as a separate gallery.
 
-### Fail2Ban SSH Jail Status
+## Current Evidence
 
-![Fail2Ban SSH jail status](screenshots/phase-1-1-fail2ban-sshd-status.png)
+- `phase-1-1-ufw-status.png`: linked from `docs/phase-1-1-os-hardening.md` under UFW Firewall
+- `phase-1-1-fail2ban-sshd-status.png`: linked from `docs/phase-1-1-os-hardening.md` under Fail2Ban
+- `phase-1-1-auditd-rules.png`: linked from `docs/phase-1-1-os-hardening.md` under auditd
 
-### auditd Active Rules
+## Redaction Rules
 
-![auditd active rules](screenshots/phase-1-1-auditd-rules.png)
+Before adding screenshots, remove or avoid exposing:
 
-- `phase-1-2-pki-directories.png`
-- `phase-1-2-ca-certificate.png`
-
-
+- usernames and hostnames where possible
+- passwords
+- tokens
+- private keys
+- cloud credentials
+- Vault unseal keys
+- GitLab initial root passwords or access tokens
