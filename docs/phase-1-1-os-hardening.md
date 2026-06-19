@@ -53,9 +53,11 @@ Allowed service ports:
 
 UFW was enabled and verified as active.
 
-Evidence:
+Original terminal evidence:
 
-![UFW firewall status](screenshots/phase-1-1-ufw-status.png)
+![UFW rules added in the lab terminal](screenshots/phase-1-1-ufw-rules-real.png)
+
+![UFW final status in the lab terminal](screenshots/phase-1-1-ufw-status-real.png)
 
 ### SSH Hardening
 
@@ -73,9 +75,9 @@ Current active jail:
 
 At verification time, there were no failed attempts and no banned IPs.
 
-Evidence:
+Original terminal evidence:
 
-![Fail2Ban SSH jail status](screenshots/phase-1-1-fail2ban-sshd-status.png)
+![Fail2Ban configuration and SSH jail verification in the lab terminal](screenshots/phase-1-1-fail2ban-real.png)
 
 ### auditd
 
@@ -93,9 +95,11 @@ Audit rules were added for:
 
 The rules were loaded and verified with `auditctl`.
 
-Evidence:
+Original terminal evidence:
 
-![auditd active rules](screenshots/phase-1-1-auditd-rules.png)
+![auditd service running in the lab terminal](screenshots/phase-1-1-auditd-service-real.png)
+
+![auditd active rules in the lab terminal](screenshots/phase-1-1-auditd-rules-real.png)
 
 ## Evidence Handling
 

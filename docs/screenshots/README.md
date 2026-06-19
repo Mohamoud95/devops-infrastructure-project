@@ -1,14 +1,16 @@
 # Screenshots
 
-This folder stores redacted implementation evidence for the lab documentation.
+This folder stores original terminal screenshots used as implementation evidence for the lab documentation.
 
 Screenshots are linked from the relevant phase document instead of being embedded here as a separate gallery.
 
 ## Current Evidence
 
-- `phase-1-1-ufw-status.png`: linked from `docs/phase-1-1-os-hardening.md` under UFW Firewall
-- `phase-1-1-fail2ban-sshd-status.png`: linked from `docs/phase-1-1-os-hardening.md` under Fail2Ban
-- `phase-1-1-auditd-rules.png`: linked from `docs/phase-1-1-os-hardening.md` under auditd
+- `phase-1-1-ufw-rules-real.png`: UFW allow rules entered in the lab terminal
+- `phase-1-1-ufw-status-real.png`: final UFW status and policies
+- `phase-1-1-fail2ban-real.png`: Fail2Ban validation, startup, and SSH jail status
+- `phase-1-1-auditd-service-real.png`: auditd enabled and active service status
+- `phase-1-1-auditd-rules-real.png`: active audit rules
 
 ## Redaction Rules
 
