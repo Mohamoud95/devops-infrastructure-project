@@ -17,6 +17,14 @@ Screenshots are linked from the relevant phase document instead of being embedde
 - `phase-1-2-chain-verification-real.png`: wildcard certificate trust-chain verification
 - `phase-1-2-certificate-details-real.png`: certificate subject, issuer, dates, and SANs
 - `phase-1-2-key-match-real.png`: matching certificate and private-key public-key hashes
+- `phase-1-3-docker-install-real.png`: Docker Engine installation completed
+- `phase-1-3-docker-versions-real.png`: verified Docker runtime component versions
+- `phase-1-3-daemon-validation-real.png`: validated Docker daemon hardening configuration
+- `phase-1-3-security-options-real.png`: effective Docker security options
+- `phase-1-3-userns-mapping-real.png`: dockremap subordinate UID/GID mapping
+- `phase-1-3-ciuser-docker-group-real.png`: CI service account Docker group membership
+- `phase-1-3-ciuser-ssh-key-real.png`: CI service account Ed25519 key and permissions
+- `phase-1-3-ciuser-hello-world-real.png`: successful container run as `ciuser`
 
 ## Redaction Rules
 

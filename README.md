@@ -13,7 +13,8 @@ My goal is to build and document a secure internal platform using Linux hardenin
 - I configured and verified Fail2Ban.
 - I enabled auditd and loaded security audit rules.
 - I completed Phase 1.2 internal TLS certificate setup.
-- I prepared Docker's official repository and will install Docker Engine in Phase 1.3.
+- I completed Phase 1.3 Docker Engine installation and daemon hardening.
+- I created and verified a dedicated CI service identity.
 
 ## Lab Environment
 
@@ -43,7 +44,7 @@ I mapped these internal service names through `/etc/hosts`:
 |---|---|---|
 | 1.1 | OS Hardening & System Preparation | Complete |
 | 1.2 | SSL Certificate Setup | Complete |
-| 1.3 | Docker Engine Installation | Repository Prepared |
+| 1.3 | Docker Engine Installation | Complete |
 | 1.4 | GitLab CE Deployment | Not Started |
 | 1.5 | GitLab Runner Installation | Not Started |
 
@@ -52,6 +53,7 @@ I mapped these internal service names through `/etc/hosts`:
 - [Phase 1 Overview](docs/phase-1-overview.md)
 - [Phase 1.1 OS Hardening](docs/phase-1-1-os-hardening.md)
 - [Phase 1.2 SSL Certificate Setup](docs/phase-1-2-ssl-certificate-setup.md)
+- [Phase 1.3 Docker Engine Installation And Hardening](docs/phase-1-3-docker-engine.md)
 
 ## Security Notes
 
