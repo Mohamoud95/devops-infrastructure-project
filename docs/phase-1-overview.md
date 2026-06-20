@@ -22,6 +22,6 @@ Phase 1 builds the secure foundation for the DevSecOps lab.
 
 ## Current Status
 
-Phase 1.1 is complete. Phase 1.2 is in progress.
+Phase 1.1 and Phase 1.2 are complete. Phase 1.3 Docker Engine installation is next.
 
 Docker repository setup was prepared early, but Docker Engine installation is intentionally paused until the SSL certificate phase is complete so the lab stays aligned with the guide sequence.

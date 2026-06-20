@@ -12,6 +12,11 @@ Screenshots are linked from the relevant phase document instead of being embedde
 - `phase-1-1-auditd-service-real.png`: auditd enabled and active service status
 - `phase-1-1-auditd-rules-real.png`: active audit rules
 - `phase-1-2-ca-verification-real.png`: successful OpenSSL verification of the internal CA
+- `phase-1-2-csr-real.png`: wildcard CSR creation and subject verification
+- `phase-1-2-san-config-real.png`: DNS and IP SAN configuration
+- `phase-1-2-chain-verification-real.png`: wildcard certificate trust-chain verification
+- `phase-1-2-certificate-details-real.png`: certificate subject, issuer, dates, and SANs
+- `phase-1-2-key-match-real.png`: matching certificate and private-key public-key hashes
 
 ## Redaction Rules
 

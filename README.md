@@ -12,7 +12,7 @@ The lab focuses on building a secure internal platform using Linux hardening, TL
 - UFW firewall configured with default-deny inbound rules
 - Fail2Ban configured and verified
 - auditd enabled with security audit rules
-- Phase 1.2 internal TLS certificate setup started
+- Phase 1.2 internal TLS certificate setup completed
 - Docker repository prepared but Docker Engine installation paused until SSL phase is complete
 
 ## Lab Environment
@@ -42,7 +42,7 @@ The lab uses local DNS-style names mapped through `/etc/hosts`:
 | Phase | Area | Status |
 |---|---|---|
 | 1.1 | OS Hardening & System Preparation | Complete |
-| 1.2 | SSL Certificate Setup | In Progress |
+| 1.2 | SSL Certificate Setup | Complete |
 | 1.3 | Docker Engine Installation | Repository Prepared |
 | 1.4 | GitLab CE Deployment | Not Started |
 | 1.5 | GitLab Runner Installation | Not Started |
