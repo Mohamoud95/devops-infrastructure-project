@@ -1,19 +1,19 @@
 ﻿# Enterprise DevSecOps Infrastructure Lab
 
-This repository documents a hands-on enterprise DevSecOps infrastructure lab based on a phased build approach.
+I am building this enterprise DevSecOps infrastructure lab using a phased, security-first approach.
 
-The lab focuses on building a secure internal platform using Linux hardening, TLS, Docker, GitLab, CI/CD, secrets management, GitOps, monitoring, and Kubernetes.
+My goal is to build and document a secure internal platform using Linux hardening, TLS, Docker, GitLab, CI/CD, secrets management, GitOps, monitoring, and Kubernetes.
 
 ## Current Progress
 
-- Ubuntu VM baseline setup completed
-- Local DNS mappings configured for internal lab services
-- Phase 1.1 OS hardening completed
-- UFW firewall configured with default-deny inbound rules
-- Fail2Ban configured and verified
-- auditd enabled with security audit rules
-- Phase 1.2 internal TLS certificate setup completed
-- Docker repository prepared but Docker Engine installation paused until SSL phase is complete
+- I completed the Ubuntu VM baseline setup.
+- I configured local DNS mappings for the internal lab services.
+- I completed Phase 1.1 OS hardening.
+- I configured UFW with a default-deny inbound policy.
+- I configured and verified Fail2Ban.
+- I enabled auditd and loaded security audit rules.
+- I completed Phase 1.2 internal TLS certificate setup.
+- I prepared Docker's official repository and will install Docker Engine in Phase 1.3.
 
 ## Lab Environment
 
@@ -28,7 +28,7 @@ The lab focuses on building a secure internal platform using Linux hardening, TL
 
 ## Internal Service Names
 
-The lab uses local DNS-style names mapped through `/etc/hosts`:
+I mapped these internal service names through `/etc/hosts`:
 
 - `gitlab.company.local`
 - `registry.company.local`
@@ -55,4 +55,4 @@ The lab uses local DNS-style names mapped through `/etc/hosts`:
 
 ## Security Notes
 
-This repository is for documenting the project structure and implementation evidence. It should not contain secrets, private keys, passwords, GitLab tokens, Vault unseal keys, API keys, or cloud credentials.
+I use this repository to document the project structure, security decisions, progress, and original terminal evidence. I do not commit secrets, private keys, passwords, GitLab tokens, Vault unseal keys, API keys, or cloud credentials.

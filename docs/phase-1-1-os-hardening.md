@@ -1,16 +1,16 @@
 ﻿# Phase 1.1 - OS Hardening & System Preparation
 
-This phase establishes the baseline security posture for the Ubuntu lab VM before deploying platform services.
+In this phase, I established the baseline security posture for my Ubuntu lab VM before deploying platform services.
 
 ## Completed Controls
 
 ### System Updates
 
-The system package index was refreshed and installed packages were upgraded. A reboot check confirmed that no reboot was required.
+I refreshed the package index, upgraded installed packages, and confirmed that no reboot was required.
 
 ### Security and Operations Packages
 
-Installed and verified core security and operations tooling:
+I installed and verified the following security and operations tools:
 
 - UFW
 - Fail2Ban
@@ -32,11 +32,11 @@ Installed and verified core security and operations tooling:
 
 ### Automatic Security Updates
 
-`unattended-upgrades` was configured and enabled to support automatic security patching.
+I configured and enabled `unattended-upgrades` to apply security updates automatically.
 
 ### UFW Firewall
 
-UFW was reset to a clean state and configured with a default-deny inbound posture.
+I reset UFW to a clean state and configured a default-deny inbound posture.
 
 Allowed service ports:
 
@@ -51,7 +51,7 @@ Allowed service ports:
 | 2379:2380/tcp | etcd |
 | 10250/tcp | Kubelet API |
 
-UFW was enabled and verified as active.
+I enabled UFW and verified that it was active with the required IPv4 and IPv6 rules.
 
 Original terminal evidence:
 
@@ -61,19 +61,19 @@ Original terminal evidence:
 
 ### SSH Hardening
 
-OpenSSH server was checked and found not installed. Nothing was listening on port 22.
+I checked for OpenSSH server and confirmed that it was not installed and nothing was listening on port 22.
 
-SSH hardening was deferred because enabling or hardening an unused inbound SSH service would add unnecessary attack surface. This will be revisited if SSH server access becomes required later.
+I deferred SSH hardening because installing an unused inbound SSH service would add unnecessary attack surface. I will revisit this control if remote SSH access becomes necessary.
 
 ### Fail2Ban
 
-Fail2Ban was configured with a local jail configuration and validated successfully.
+I configured Fail2Ban with a local jail configuration and validated it successfully.
 
 Current active jail:
 
 - `sshd`
 
-At verification time, there were no failed attempts and no banned IPs.
+When I verified the jail, it reported no failed attempts and no banned IPs.
 
 Original terminal evidence:
 
@@ -81,9 +81,9 @@ Original terminal evidence:
 
 ### auditd
 
-`auditd` was enabled and verified as active.
+I enabled `auditd` and verified that the service was active.
 
-Audit rules were added for:
+I added audit rules for:
 
 - root command execution
 - `/etc/passwd` changes
@@ -93,7 +93,7 @@ Audit rules were added for:
 - Docker socket access
 - Kubernetes configuration changes
 
-The rules were loaded and verified with `auditctl`.
+I loaded the rules and verified them with `auditctl`.
 
 Original terminal evidence:
 
@@ -103,4 +103,4 @@ Original terminal evidence:
 
 ## Evidence Handling
 
-Screenshots are stored in `docs/screenshots/` as implementation evidence. They should be redacted before upload and must not expose passwords, tokens, private keys, cloud credentials, or other sensitive material.
+I store original terminal screenshots in `docs/screenshots/` as implementation evidence. Before uploading them, I check that they do not expose passwords, tokens, private keys, cloud credentials, or other sensitive material.

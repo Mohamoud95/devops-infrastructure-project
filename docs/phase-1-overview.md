@@ -1,6 +1,6 @@
 ﻿# Phase 1 Overview
 
-Phase 1 builds the secure foundation for the DevSecOps lab.
+In Phase 1, I am building the secure foundation for my DevSecOps lab.
 
 ## Objectives
 
@@ -22,6 +22,6 @@ Phase 1 builds the secure foundation for the DevSecOps lab.
 
 ## Current Status
 
-Phase 1.1 and Phase 1.2 are complete. Phase 1.3 Docker Engine installation is next.
+I have completed Phase 1.1 and Phase 1.2. My next step is Phase 1.3 Docker Engine installation.
 
-Docker repository setup was prepared early, but Docker Engine installation is intentionally paused until the SSL certificate phase is complete so the lab stays aligned with the guide sequence.
+I prepared Docker's official repository early, but I paused the Docker Engine installation until the SSL certificate phase was complete so the build remained aligned with the guide sequence.
